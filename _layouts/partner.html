@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
+    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div id='container'>
+      {% include links.html %}
+      <div class="content">
+          <section class='post'>
+			<h2>{{ page.partner-name }}</h2>
+
+			<div class="partner-description">
+			  <p class="lead">{{ page.partner-description }}</p>
+			</div>
+
+			<h3>Details</h3>
+			<ul class="partner-details">
+			  <li>Contact: {{ page.partner-contact }}</li>              
+			  <li>Tags: {{ page.partner-tags }}</li>
+			  <li>External: <a href="{{ page.partner-url }}">{{ page.partner-url }}</a></li>      
+			</ul>
+
+			{{ content }}
+          </section>
+        </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
