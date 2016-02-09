@@ -17,7 +17,7 @@ Relevant data science resource centers on campus.
       <tr>
         <td class="partner-name">
           {% if p.is-full-page %}
-            <a class="partner-name" href="{{ p.url }}">{{ p.partner-name }}</a>
+            <a class="partner-name" href="{{ site.url }}/{{ p.url }}">{{ p.partner-name }}</a>
           {% else %}
             <span class="partner-name">{{ p.partner-name }}</span>
           {% endif %}
