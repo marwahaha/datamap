@@ -17,13 +17,13 @@ Relevant data science resource centers on campus.
       <tr>
         <td class="partner-name">
           {% if p.is-full-page %}
-            <a class="partner-name" href="{{ site.url }}/{{ p.url }}">{{ p.partner-name }}</a>
+            <a class="partner-name" href="/datamap{{ p.url }}">{{ p.partner-name }}</a>
           {% else %}
             <span class="partner-name">{{ p.partner-name }}</span>
           {% endif %}
           <br />
           {{ p.partner-description }}<br />
-          <a href="{{ p.partner-url }}">{{ p.partner-url }}</a>
+          <a target="_blank" href="{{ p.partner-url }}">{{ p.partner-url }}</a>
         </td>
         <td class="partner-contact">{{ p.partner-contact }}</td>
         <td class="partner-tags">{{ p.partner-tags }}</td>
