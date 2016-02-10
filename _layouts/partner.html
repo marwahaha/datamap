@@ -11,17 +11,18 @@
       {% include links.html %}
       <div class="content">
           <section class='post'>
-			<h2>{{ page.partner-name }}</h2>
+			<h2>{{ page.resource-name }}</h2>
 
-			<div class="partner-description">
-			  <p class="lead">{{ page.partner-description }}</p>
+			<div class="resource-description">
+			  <p class="lead">{{ page.resource-description }}</p>
 			</div>
 
 			<h3>Details</h3>
 			<ul class="partner-details">
-			  <li>Contact: {{ page.partner-contact }}</li>              
-			  <li>Tags: {{ page.partner-tags }}</li>
-			  <li>External: <a href="{{ page.partner-url }}">{{ page.partner-url }}</a></li>      
+			  <li>Link: <a target="_blank" href="{{ page.resource-url }}">{{ page.resource-url }}</a></li>             
+        <li>Education Level: {{ page.resource-education-level }}</li>
+        <li>Academic Focus: {{ page.resource-academic-focus }}</li>
+        <li>Teaching Style: {{ page.resource-teaching-style }}</li>
 			</ul>
 
 			{{ content }}
