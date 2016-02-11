@@ -2,6 +2,11 @@
 # Data in the first row of the CSV is assumed to be the column heading.
 # Original work borrowed from: https://github.com/hfionte/csv_to_yaml
 
+# remove contents of support folder
+import shutil, os
+shutil.rmtree('support')
+os.mkdir('support')
+
 # Import the python library for parsing CSV files.
 import csv
 
