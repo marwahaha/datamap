@@ -3,11 +3,30 @@ layout: page
 title: Support
 ---
 
-<table id="partner-table" class="table table-bordered" style="padding:0px">
+Education Level: <select id="search-edulevel" name="edulevel">
+  <option></option>
+  <option>Undergraduate</option>
+  <option>Graduate</option>
+</select>
+<br />
+Academic Focus: <select id="search-academic" name="academic">
+  <option></option>
+  <option>Numerical</option>
+  <option>Social Science</option>
+</select>
+<br />
+Teaching Style: <select id="search-style" name="style">
+  <option></option>
+  <option>1 on 1 Consulting</option>
+  <option>Weekly Meetings</option>
+  <option>Workshops</option>
+</select>
+<br />
+<table id="partner-table" class="table table-bordered" style="padding:0px; width:100%">
   <thead>
-    <th data-dynatable-column="name">Resource</th>
-    <th data-dynatable-column="edulevel">Education Level</th>
-    <th data-dynatable-column="academic">Academic Focus</th>
+    <th data-dynatable-column="name" style="width:40%">Resource</th>
+    <th data-dynatable-column="edulevel" style="width:20%">Education Level</th>
+    <th data-dynatable-column="academic" style="width:20%">Academic Focus</th>
     <th data-dynatable-column="style">Teaching Style</th>
   </thead>
   {% for p in site.data.resources %}
@@ -37,11 +56,12 @@ $('#partner-table').bind('dynatable:init', function(e, dynatable) {
       // paginationClass: 'pagination',
       // paginationActiveClass: 'active',
       // paginationDisabledClass: 'disabled'
-      queries: $('#max-price')
+      queries: $('#search-edulevel, #search-academic, #search-style')
     },
     features: {
       paginate: false,
-      recordCount: false
+      recordCount: false,
+      search: false
     }
 });
 </script>
