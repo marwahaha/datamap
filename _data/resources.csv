@@ -2,11 +2,13 @@ resource-name,resource-education-level,resource-academic-focus,resource-teaching
 D-Lab Consulting,Graduate,Social Science,1 on 1 Consulting,http://dlab.berkeley.edu/consulting
 D-Lab Trainings,Graduate,Social Science,Workshops,http://dlab.berkeley.edu/training
 D-Lab Working Groups,Graduate,Social Science,Weekly Meetings,http://dlab.berkeley.edu/working-groups
-BIDS Fellows Office Hours,Graduate,Numerics,1 on 1 Consulting,http://bids.berkeley.edu/resources/office-hours
-The Hacker Within,Graduate,Numerics,Weekly Meetings,http://www.thehackerwithin.org/berkeley/
-Data Lab,Undergraduate,Numerics,1 on 1 Consulting,http://www.lib.berkeley.edu/libraries/data-lab
-Software Carpentry Workshops at BIDS,Graduate,Numerics,Workshops,http://bids.berkeley.edu/research/software-carpentry
-Hackers at Berkeley Workshops,Undergraduate,Numerics,Workshops,http://hackersatberkeley.com/
-Hackers at Berkeley Meetings,Undergraduate,Numerics,Weekly Meetings,http://hackersatberkeley.com
-Machine Learning at Berkeley,Undergraduate,Numerics,Workshops,http://ml.berkeley.edu/
-Data Science Society,Undergraduate,Numerics,Workshops,http://dssberkeley.org/
+BIDS Fellows Office Hours,Graduate,Numerical,1 on 1 Consulting,http://bids.berkeley.edu/resources/office-hours
+The Hacker Within,Graduate,Numerical,Weekly Meetings,http://www.thehackerwithin.org/berkeley/
+Data Lab,Undergraduate,Numerical,1 on 1 Consulting,http://www.lib.berkeley.edu/libraries/data-lab
+Software Carpentry Workshops at BIDS,Graduate,Numerical,Workshops,http://bids.berkeley.edu/research/software-carpentry
+Hackers at Berkeley Workshops,Undergraduate,Numerical,Workshops,http://hackersatberkeley.com/
+Hackers at Berkeley Meetings,Undergraduate,Numerical,Weekly Meetings,http://hackersatberkeley.com
+Machine Learning at Berkeley Workshops,Undergraduate,Numerical,Workshops,http://ml.berkeley.edu/
+Data Science Society at Berkeley Tutoring,Undergraduate,Numerical,Workshops,http://dssberkeley.org/
+HKN Tutoring,Undergraduate,Numerical,1 on 1 Consulting,https://hkn.eecs.berkeley.edu/tutor
+Python Bootcamp at LBL,Graduate,Numerical,Workshops,https://sites.google.com/site/pythonbootcamp/

@@ -5,10 +5,10 @@ title: Support
 
 <table id="partner-table" class="table table-bordered" style="padding:0px">
   <thead>
-    <th>Resource</th>
-    <th>Education Level</th>
-    <th>Academic Focus</th>
-    <th>Teaching Style</th>
+    <th data-dynatable-column="name">Resource</th>
+    <th data-dynatable-column="edulevel">Education Level</th>
+    <th data-dynatable-column="academic">Academic Focus</th>
+    <th data-dynatable-column="style">Teaching Style</th>
   </thead>
   {% for p in site.data.resources %}
     <tr>
@@ -28,14 +28,20 @@ title: Support
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Dynatable/0.3.1/jquery.dynatable.min.js"></script>
 
 <script>
-$('#partner-table').dynatable({
+$('#partner-table').bind('dynatable:init', function(e, dynatable) {
+    dynatable.queries.functions['max-price'] = function(record, queryValue) {
+      return parseFloat(record.price.replace(/,/,'')) <= parseFloat(queryValue);
+    };
+  }).dynatable({
     inputs: {
-      paginationClass: 'pagination',
-      paginationActiveClass: 'active',
-      paginationDisabledClass: 'disabled'
+      // paginationClass: 'pagination',
+      // paginationActiveClass: 'active',
+      // paginationDisabledClass: 'disabled'
+      queries: $('#max-price')
     },
     features: {
-      paginate: false
+      paginate: false,
+      recordCount: false
     }
 });
 </script>
