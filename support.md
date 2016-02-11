@@ -29,15 +29,17 @@ Teaching Style: <select id="search-style" name="style">
     <th data-dynatable-column="academic" style="width:20%">Academic Focus</th>
     <th data-dynatable-column="style">Teaching Style</th>
   </thead>
-  {% for p in site.data.resources %}
-    <tr>
-      <td class="resource-name">
-        <a target="_blank" href="{{ p.resource-url }}">{{ p.resource-name }}</a>
-      </td>
-      <td class="resource-education-level">{{ p.resource-education-level }}</td>
-      <td class="resource-academic-focus">{{ p.resource-academic-focus }}</td>
-      <td class="resource-teaching-style">{{ p.resource-teaching-style }}</td>
-    </tr>
+  {% for p in site.pages %}
+    {% if p.layout == 'partner' %}
+      <tr>
+        <td class="resource-name">
+          <a target="_blank" href="{{ p.url }}">{{ p.resource-name }}</a>
+        </td>
+        <td class="resource-education-level">{{ p.resource-education-level }}</td>
+        <td class="resource-academic-focus">{{ p.resource-academic-focus }}</td>
+        <td class="resource-teaching-style">{{ p.resource-teaching-style }}</td>
+      </tr>
+    {% endif %}
   {% endfor %}
 </table>
 
