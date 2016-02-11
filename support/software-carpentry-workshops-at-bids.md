@@ -6,5 +6,5 @@ resource-education-level: Graduate
 resource-academic-focus: Numerical
 resource-teaching-style: Workshops
 resource-url: http://bids.berkeley.edu/research/software-carpentry
-description: Software Carpentry is a volunteer organization whose goal is to make scientists more productive and their work more reliable by teaching them basic computing skills.
+description: Software Carpentry is a volunteer organization whose goal is to make scientists more productiveÂ and their work more reliableÂ by teaching them basic computing skills.
 ---
