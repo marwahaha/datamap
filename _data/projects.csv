@@ -1,7 +1,7 @@
-project-name,project-education-level,project-client-focus,project-url
-BIDS Collaborative Projects,Undergraduate,Industry,http://datasci.berkeley.edu
-Data Science Ecosystem Mapping,Undergraduate,Industry,mailto:anthonysuen@berkeley.edu
-Data Science Society at Berkeley Research Projects,Undergraduate,Research,http://dssberkeley.org
-Data Science Society at Berkeley Industry Projects,Undergraduate,Research,http://dssberkeley.org
-Machine Learning at Berkeley Industry Projects (ML@B|C),Undergraduate,Industry,http://ml.berkeley.edu
-Machine Learning at Berkeley Research Projects (ML@B|X),Undergraduate,Research,http://ml.berkeley.edu
+title,project-name,project-education-level,project-client-focus,project-url
+BIDS Collaborative Projects,BIDS Collaborative Projects,Undergraduate,Industry,http://datasci.berkeley.edu
+Data Science Ecosystem Mapping,Data Science Ecosystem Mapping,Undergraduate,Research,mailto:anthonysuen@berkeley.edu
+Data Science Society at Berkeley Research Projects,Data Science Society at Berkeley Research Projects,Undergraduate,Research,http://dssberkeley.org
+Data Science Society at Berkeley Industry Projects,Data Science Society at Berkeley Industry Projects,Undergraduate,Research,http://dssberkeley.org
+Machine Learning at Berkeley Industry Projects,Machine Learning at Berkeley Industry Projects (ML@B|C),Undergraduate,Industry,http://ml.berkeley.edu
+Machine Learning at Berkeley Research Projects,Machine Learning at Berkeley Research Projects (ML@B|X),Undergraduate,Research,http://ml.berkeley.edu

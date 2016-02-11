@@ -1,4 +1,4 @@
-# Takes a file CSV file called "_data/resources.csv" and outputs each row as a YAML file named after first column.
+# Takes a file CSV file called "_data/support.csv" and outputs each row as a YAML file named after first column.
 # Data in the first row of the CSV is assumed to be the column heading.
 # Original work borrowed from: https://github.com/hfionte/csv_to_yaml
 
@@ -6,7 +6,7 @@
 import csv
 
 # Open our data file in read-mode.
-csvfile = open('_data/resources.csv', 'r')
+csvfile = open('_data/support.csv', 'r')
 
 # Save a CSV Reader object.
 datareader = csv.reader(csvfile, delimiter=',', quotechar='"')

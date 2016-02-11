@@ -7,7 +7,7 @@ title: Courses
 * Khoa's [Data Science at Berkeley Guide](http://kqdtran.github.io/so-i-heard-youre-an-aspiring-golden-bear-data-scient-ish/)
 
 
-#### Ideas for improvement:
+### Ideas for improvement:
 
 * a course map of data science courses, analogous to efforts by [HKN](https://hkn.eecs.berkeley.edu/courseguides)
 * a course guide with a brief summary of each data science course

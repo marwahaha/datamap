@@ -3,6 +3,10 @@ layout: page
 title: Support
 ---
 
+### Data Science Support Systems at UC Berkeley
+
+Here is a list of different resources available to researchers and students. If you have suggestions or things to add, please [email](mailto:marwahaha@berkeley.edu).
+
 Education Level: <select id="search-edulevel" name="edulevel">
   <option></option>
   <option>Undergraduate</option>
