@@ -33,7 +33,7 @@ Teaching Style: <select id="search-style" name="style">
     {% if p.layout == 'partner' %}
       <tr>
         <td class="resource-name">
-          <a target="_blank" href="{{ p.url }}">{{ p.resource-name }}</a>
+          <a target="_blank" href="/datamap/{{ p.url }}">{{ p.resource-name }}</a>
         </td>
         <td class="resource-education-level">{{ p.resource-education-level }}</td>
         <td class="resource-academic-focus">{{ p.resource-academic-focus }}</td>
