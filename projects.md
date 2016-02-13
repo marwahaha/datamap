@@ -15,8 +15,9 @@ Education Level: <select id="search-edulevel" name="edulevel">
 <br />
 Client Focus: <select id="search-client" name="client">
   <option></option>
-  <option>Research</option>
   <option>Industry</option>
+  <option>Research</option>
+  <option>Development</option>
 </select>
 <br />
 <table id="project-table" class="table table-bordered" style="padding:0px; width:100%">
