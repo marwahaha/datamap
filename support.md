@@ -15,7 +15,7 @@ Education Level: <select id="search-edulevel" name="edulevel">
 <br />
 Academic Focus: <select id="search-academic" name="academic">
   <option></option>
-  <option>Numerical</option>
+  <option>Natural Science</option>
   <option>Social Science</option>
 </select>
 <br />
@@ -29,8 +29,8 @@ Teaching Style: <select id="search-style" name="style">
 <table id="partner-table" class="table table-bordered" style="padding:0px; width:100%">
   <thead>
     <th data-dynatable-column="name" style="width:40%">Resource</th>
+    <th data-dynatable-column="academic" style="width:22%">Academic Focus</th>
     <th data-dynatable-column="edulevel" style="width:20%">Education Level</th>
-    <th data-dynatable-column="academic" style="width:20%">Academic Focus</th>
     <th data-dynatable-column="style">Teaching Style</th>
   </thead>
   {% for p in site.pages %}
@@ -39,8 +39,8 @@ Teaching Style: <select id="search-style" name="style">
         <td class="resource-name">
           <a target="_blank" href="/datamap{{ p.url }}">{{ p.resource-name }}</a>
         </td>
-        <td class="resource-education-level">{{ p.resource-education-level }}</td>
         <td class="resource-academic-focus">{{ p.resource-academic-focus }}</td>
+        <td class="resource-education-level">{{ p.resource-education-level }}</td>
         <td class="resource-teaching-style">{{ p.resource-teaching-style }}</td>
       </tr>
     {% endif %}
