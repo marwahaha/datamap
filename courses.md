@@ -5,7 +5,9 @@ title: Courses
 
 ### Data Science-Related Courses at UC Berkeley
 
-These are semester-long computational courses (in some academic domain) or data-intensive courses at UC Berkeley. If you have suggestions or things to add, please [email](mailto:marwahaha@berkeley.edu).
+These are semester-long computational courses (in some academic domain) or data-intensive courses at UC Berkeley. If you have suggestions or things to add, please [email](mailto:marwahaha@berkeley.edu). 
+
+The "core" courses are more directly related to data science techniques, while the "method" courses have a more interdisciplinary focus. 
 
 
 Type of Course: <select id="search-type" name="type">
