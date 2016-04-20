@@ -1,7 +1,7 @@
 datamap
 ========
 
-To build locally, clone the repository and run ```jekyll serve``` at the command line. The website should be accessible from localhost:4000 .
+To build locally, clone the repository and run ```jekyll serve``` at the command line. The website should be accessible from localhost:4000 . (Might need to run  ```bundle install``` in case you don't have all the ruby gems.)
 
 To add to the resource tables, you can update the CSVs in the folder ```_data```.
 
