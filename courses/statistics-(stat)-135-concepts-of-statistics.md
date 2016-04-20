@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Core
 department: Statistics (STAT)
 course: 135
-title: Statistics (STAT) 135 Concepts of Statistics
 course-name: Concepts of Statistics
+title: Statistics (STAT) 135 Concepts of Statistics
 units: 4
-prerequisites: STAT 134, Linear Algebra (MATH 54), STAT 133 Recommended
-tools: 
-description: An introduction to the design and analysis of experiments. This course covers planning, conducting, and analyzing statistically designed experiments with an emphasis on hands-on experience. Standard designs studied include factorial designs, block designs, latin square designs, and repeated measures designs. Other topics covered include the principles of design, randomization, ANOVA, response surface methodoloy, and computer experiments.
+tools: nan
+description: A comprehensive survey course in statistical theory and methodology. Topics include descriptive statistics, maximum likelihood estimation, non-parametric methods, introduction to optimality, goodness-of-fit tests, analysis of variance, bootstrap and computer-intensive methods and least squares estimation. The laboratory includes computer-based data-analytic applications to science and engineering.
+cluster: Mathematics/Statistics
 ---

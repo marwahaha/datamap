@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Environmental Economics and Policy (ENVECON)
 course: C180
-title: Environmental Economics and Policy (ENVECON) C180 Ecological Economics in Historical Context
 course-name: Ecological Economics in Historical Context
+title: Environmental Economics and Policy (ENVECON) C180 Ecological Economics in Historical Context
 units: 3
-prerequisites: None
-tools: 
-description: Formulation to linear programs. Optimal allocation and control problems in industry and environmental studies. Convex sets; properties of optimal solutions. The simplex method; theorems of duality; complementary slackness. Problems of post-optimization. Special structures; network problems. Digital computation.
+tools: nan
+description: Economists through history have explored economic and environmental interactions, physical limits to growth, what constitutes the good life, and how economic justice can be assured. Yet economists continue to use measures and models that simplify these issues and promote bad outcomes. Ecological economics responds to this tension between the desire for simplicity and the multiple perspectives needed to understand complexity in order to move toward sustainable, fulfilling, just economies.
+cluster: Social Science
 ---

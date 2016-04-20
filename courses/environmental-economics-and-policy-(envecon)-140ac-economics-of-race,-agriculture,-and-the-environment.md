@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Environmental Economics and Policy (ENVECON)
 course: 140AC
-title: Environmental Economics and Policy (ENVECON) 140AC Economics of Race, Agriculture, and the Environment
 course-name: Economics of Race, Agriculture, and the Environment
+title: Environmental Economics and Policy (ENVECON) 140AC Economics of Race, Agriculture, and the Environment
 units: 3
-prerequisites: ENVECON 1, or one lower division course in a social science, or consent of instructor
-tools: R, Python, or MATLAB
-description: This course will introduce students to basic statistical techniques such as parameter estimation, hypothesis testing, regression analysis, analysis of variance. Specific applications in forecasting and quality control will be considered in detail.
+tools: nan
+description: This course examines whether and how economic processes explain shifting formations of race and differential experiences among racial groups in U.S. agricultural and environmental systems. It approaches economic processes as organizing dynamics of racial differentiation and integration, and uses comparative experience among different racial and ethnic groups as sources of evidence against which economic theories of differentiation and integration can be tested.
+cluster: Social Science
 ---

@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Computer Science (COMPSCI)
 course: 9C
-title: Computer Science (COMPSCI) 9C C for Programmers
 course-name: C for Programmers
+title: Computer Science (COMPSCI) 9C C for Programmers
 units: 2
-prerequisites: Programming experience with pointers (or addresses in assembly language) and linked data structures equivalent to that gained in Computer Science 9B or 61A, or Engineering 7
-tools: Scheme, SQL, Python
-description: Introduction to programming and computer science. This course exposes students to techniques of abstraction at several levels - (a) within a programming language, using higher-order functions, manifest types, data-directed programming, and message-passing; (b) between programming languages, using functional and rule-based languages as examples. It also relates these techniques to the practical problems of implementation of languages and algorithms on a von Neumann machine. There are several significant programming projects. 
+tools: nan
+description: Self-paced course in the C programming language for students who already know how to program. Computation, input and output, flow of control, functions, arrays, and pointers, linked structures, use of dynamic storage, and implementation of abstract data types.
+cluster: Computer Science
 ---

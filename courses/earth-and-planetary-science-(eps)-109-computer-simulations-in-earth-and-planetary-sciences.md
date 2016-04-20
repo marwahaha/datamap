@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Earth and Planetary Science (EPS)
 course: 109
-title: Earth and Planetary Science (EPS) 109 Computer Simulations in Earth and Planetary Sciences
 course-name: Computer Simulations in Earth and Planetary Sciences
+title: Earth and Planetary Science (EPS) 109 Computer Simulations in Earth and Planetary Sciences
 units: 4
-prerequisites: MATH 1A or equivalent
-tools: 
-description: This course covers the fundamentals of probability and random processes useful in fields such as networks, communication, signal processing, and control. Sample space, events, probability law. Conditional probability. Independence. Random variables. Distribution, density functions. Random vectors. Law of large numbers. Central limit theorem. Estimation and detection. Markov chains.
+tools: COMSOL
+description: Introduction to modern computer simulation methods and their application to selected Earth and Planetary Science problems. In hands-on computer labs, students will learn about numerical algorithms, learn to program and modify provided programs, and display the solution graphically. This is an introductory course and no programming experience is required. Examples include fractals in geophysics, properties of materials at high pressure, celestial mechanics, and diffusion processes in the Earth. Topics range from ordinary and partial differential equations to molecular dynamics and Monte Carlo simulations.
+cluster: Physical Science
 ---

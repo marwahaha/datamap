@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Core
 department: Engineering (ENGIN)
 course: 177
-title: Engineering (ENGIN) 177 Advanced Programming with MATLAB
 course-name: Advanced Programming with MATLAB
+title: Engineering (ENGIN) 177 Advanced Programming with MATLAB
 units: 3
-prerequisites: 7 or 77; Mathematics 53 and 54
-tools: 
-description: An examination of the environmental effects of globalization. How has increased international trade, the integration of factor markets, and the adoption of international agreements affected the environment? Case studies include the environmental impact of GATT/WTO and NAFTA. Multi-disciplinary approach examines the actual laws and institutions and the economic theories of globalization, in addition to the empirical evidence of globalization's environmental effects.
+tools: Bash, Git, Python, LaTex
+description: The course builds an understanding, demonstrates engineering uses, and provides hand-on experience for object-oriented programming as well as exposes a practical knowledge of advanced features available in MATLAB. The course will begin with a brief review of basic MATLAB features and quickly move to class organization and functionality. The introduced concepts are reinforced by examining the advanced graphical features of MATLAB. The material will also include the effective use of programs written in C and FORTRAN, and will cover SIMULINK, a MATLAB toolbox providing for an effective ways of model simulations. Throughout the course, the emphasis will be placed on examples and homework assignments from engineering disciplines.
+cluster: Computer Science
 ---

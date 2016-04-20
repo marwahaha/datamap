@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Core
 department: Mathematics (MATH)
 course: 170
-title: Mathematics (MATH) 170 Mathematical Methods for Optimization
 course-name: Mathematical Methods for Optimization
+title: Mathematics (MATH) 170 Mathematical Methods for Optimization
 units: 4
-prerequisites: Math 53, 54
-tools: 
-description: Required for all students majoring in Middle Eastern Studies, open to all students in International and Area Studies Teaching Program focusing on the Middle East interdisciplinary research strategies for the collection, interpretation, and analysis of data. Course integrates the study of the fundamental theories of social science, with the practical techniques of social science research methods.
+tools: MATLAB
+description: The modeling, analysis, and optimization of complex systems requires a range of algorithms and design software. This course reviews the fundamental techniques underlying the design methodology for complex systems, using integrated circuit design as example. Topics include design flows, discrete and continuous models and algorithms, and strategies for implementing algorithms efficiently and correctly in software. Laboratory assignments and a class project will expose students to state-of-the-art tools.
+cluster: Mathematics/Statistics
 ---

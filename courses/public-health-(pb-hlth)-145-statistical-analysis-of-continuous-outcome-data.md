@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Public Health (PB HLTH)
 course: 145
-title: Public Health (PB HLTH) 145 Statistical Analysis of Continuous Outcome data
-course-name: Statistical Analysis of Continuous Outcome data
+course-name: Statistical Analysis of Continuous Outcome Data
+title: Public Health (PB HLTH) 145 Statistical Analysis of Continuous Outcome Data
 units: 4
-prerequisites: PB HLTH 142
-tools: 
-description: Problems of research design, measurement, and data collection, processing, and analysis will be considered. Attention will be given to both qualitative and quantitative studies.
+tools: nan
+description: Regression models for continuous outcome data - least squares estimates and their properties, interpreting coefficients, prediction, comparing models, checking model assumptions, transformations, outliers, and influential points. Categorical explanatory variables - interaction and analysis of covariance, correlation and partial correlation. Appropriate graphical methods and statistical computing. Analysis of variance for one- and two-factor models - F tests, assumption checking, multiple comparisons. Random effects models and variance components. Introduction to repeated measures models.
+cluster: Mathematics/Statistics
 ---

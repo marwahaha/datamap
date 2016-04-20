@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Statistics (STAT)
 course: 158
-title: Statistics (STAT) 158 The Design and Analysis of Experiments
 course-name: The Design and Analysis of Experiments
+title: Statistics (STAT) 158 The Design and Analysis of Experiments
 units: 4
-prerequisites: Stat 134 and 135 or consent of instructor. Stat 135 may be taken concurrently. Stat 133 is recommended.
-tools: 
-description: Marketing research objectives; qualitative research, surveys, experiments, sampling, data analysis.
+tools: nan
+description: An introduction to the design and analysis of experiments. This course covers planning, conducting, and analyzing statistically designed experiments with an emphasis on hands-on experience. Standard designs studied include factorial designs, block designs, latin square designs, and repeated measures designs. Other topics covered include the principles of design, randomization, ANOVA, response surface methodoloy, and computer experiments.
+cluster: Mathematics/Statistics
 ---

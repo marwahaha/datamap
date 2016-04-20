@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Computer Science (COMPSCI)
 course: 9A
-title: Computer Science (COMPSCI) 9A Matlab for Programmers
 course-name: Matlab for Programmers
+title: Computer Science (COMPSCI) 9A Matlab for Programmers
 units: 2
-prerequisites: Programming experience equivalent to that gained in Computer Science 10; familiarity with applications of matrix processing
-tools: 
-description: Self-paced course in the C programming language for students who already know how to program. Computation, input and output, flow of control, functions, arrays, and pointers, linked structures, use of dynamic storage, and implementation of abstract data types.
+tools: nan
+description: Introduction to the constructs in the Matlab programming language, aimed at students who already know how to program. Array and matrix operations, functions and function handles, control flow, plotting and image manipulation, cell arrays and structures, and the Symbolic Mathematics toolbox.
+cluster: Computer Science
 ---

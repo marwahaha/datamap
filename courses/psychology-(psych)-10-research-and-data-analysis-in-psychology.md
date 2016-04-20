@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Psychology (PSYCH)
 course: 10
-title: Psychology (PSYCH) 10 Research and Data Analysis in Psychology
 course-name: Research and Data Analysis in Psychology
+title: Psychology (PSYCH) 10 Research and Data Analysis in Psychology
 units: 4
-prerequisites: Psych 1 or equiv and Math 10A-B or Stats 2
-tools: 
-description: The seminar explores leading-edge trends in data science and analytics at Silicon Valley and tech firms. The speakers will include executives, entrepreneurs, and researchers from leading firms.  Topics include - Data analytics and “Big Data, Machine learning and scalabilitye, Business analytics including online marketing and advertising, financial services and risk analytics, operational and service analytics, Information retrieval (search), Information extraction, Social networks and social media, Healthcare analytics, and Energy analytics.
+tools: R
+description: The class covers research design, statistical reasoning, and statistical methods appropriate for psychological research. Topics covered in research design include the scientific method, experimental versus correlational designs, controls and placebos, within and between subject designs and temporal or sequence effects. Topics covered in statistics include descriptive versus inferential statistics, linear regression and correlation and univariate statistical tests - t-test, one way and two-way ANOVA, chi-square test. The class also introduces non-parametric tests and modeling. Prospective Psychology majors need to take this course to be admitted to the major.
+cluster: Social Science
 ---

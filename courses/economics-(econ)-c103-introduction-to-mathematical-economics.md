@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Economics (ECON)
 course: C103
-title: Economics (ECON) C103 Introduction to Mathematical Economics
 course-name: Introduction to Mathematical Economics
+title: Economics (ECON) C103 Introduction to Mathematical Economics
 units: 4
-prerequisites: MATH 53 and 54
-tools: 
-description: Principles of massively parallel real-time computation, optimization, and information processing via nonlinear dynamics and analog VLSI neural networks, applications selected from image processing, pattern recognition, feature extraction, motion detection, data compression, secure communication, bionic eye, auto waves, and Turing patterns.
+tools: FEMLAB
+description: Selected topics illustrating the application of mathematics to economic theory. This course is intended for upper-division students in Mathematics, Statistics, the Physical Sciences, and Engineering, and for economics majors with adequate mathematical preparation. No economic background is required.
+cluster: Social Science
 ---

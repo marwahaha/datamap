@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Core
 department: Public Health (PB HLTH)
 course: 144A
-title: Public Health (PB HLTH) 144A Introduction to SAS Programming
 course-name: Introduction to SAS Programming
+title: Public Health (PB HLTH) 144A Introduction to SAS Programming
 units: 2
-prerequisites: PB HLTH 142
-tools: 
-description: This course will provide students with a set of skills to understand, evaluate, use, and produce quantitative data about the social world. It is intended specifically for social science majors, and focuses on social science questions. Students will learn to - produce basic graphs, find good-quality and relevant data on the web, manipulate data in a spreadsheet, including producing pivot tables, understand and calculate basic statistical measures of central tendency, variation, and correlation, understand and apply basic concepts of sampling and selection, and recognize an impossible statistic.
+tools: SAS
+description: This course is intended to serve as an introduction to the SAS programming language for Windows in an applied, workshop environment. Emphasis is on data management and programming in a public health research setting. Topics include SAS language to compute, recode, label, and format variables as well as sort, subset, concatenate, and merge data sets. SAS statistical procedures will be used to compute univariate and bivariate summary statistics and tests, simple linear models,graphical plots, and statistical output data sets.
+cluster: Social Science
 ---

@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: International and Area Studies (IAS)
 course: 102
-title: International and Area Studies (IAS) 102 Scope and Methods of Research in International and Area Studies
 course-name: Scope and Methods of Research in International and Area Studies
+title: International and Area Studies (IAS) 102 Scope and Methods of Research in International and Area Studies
 units: 4
-prerequisites: Must intend to take DS H195 following semester
-tools: 
-description: Programming for numerical calculations, round-off error, approximation and interpolation, numerical quadrature, and solution of ordinary differential equations. Practice on the computer.
+tools: nan
+description: Required prerequisite for all students intending to enroll in Development Studies H195 and Political Economy of Industrial Societies H195. Introduction to interdisciplinary research strategies for the collection, interpretation, and analysis of data. Course integrates the study of the fundamental theories of social science with the practical techniques of social science research methods.
+cluster: Social Science
 ---

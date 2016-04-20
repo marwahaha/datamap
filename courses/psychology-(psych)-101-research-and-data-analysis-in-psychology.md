@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Core
 department: Psychology (PSYCH)
 course: 101
-title: Psychology (PSYCH) 101 Research and Data Analysis in Psychology
 course-name: Research and Data Analysis in Psychology
+title: Psychology (PSYCH) 101 Research and Data Analysis in Psychology
 units: 4
-prerequisites: 1 and completion of the quantitative prerequisites for the major.
-tools: 
-description: This course provides an overview of issues and trends that will shape the need for data mining and analytics across a variety of disciplines, fosters critical thinking about real world actionability from analytics, and develop intuition in various machine learning classification algorithms (e.g. decision trees, neural networks, support vector machines), clustering techniques (e.g. k-means, spectral), as well as big data analytics tools (Torque cluster, EC2, MapReduce).
+tools: R
+description: The course will concentrate on hypothesis formulation and testing, tests of significance, analysis of variance (one-way analysis), simple correlation, simple regression, and nonparametric statistics such as chi-square and Mann-Whitney U tests. Majors intending to be in the honors program must complete 101 by the end of their junior year.
+cluster: Social Science
 ---

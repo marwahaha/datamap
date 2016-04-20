@@ -7,8 +7,6 @@ title: Courses
 
 These are semester-long computational courses (in some academic domain) or data-intensive courses at UC Berkeley. If you have suggestions or things to add, please [email](mailto:marwahaha@berkeley.edu). 
 
-The "core" courses are more directly related to data science techniques, while the "method" courses have a more interdisciplinary focus. 
-
 
 Department: <select id="search-dept" name="dept">
   <option></option>
@@ -55,18 +53,25 @@ Department: <select id="search-dept" name="dept">
   <option>Undergraduate Business Administration (UGBA)</option>
 </select>
 <br />
-Type of Course: <select id="search-type" name="type">
+Course Cluster: <select id="search-cluster" name="cluster">
   <option></option>
-  <option>Core</option>
-  <option>Method</option>
+  <option>Humanities</option>
+  <option>Social Science</option>
+  <option>Biological Science</option>
+  <option>Engineering</option>
+  <option>Computer Science</option>
+  <option>Mathematics/Statistics</option>
+  <option>Physical Science</option>
 </select>
 <br />
+
+
 <table id="project-table" class="table table-bordered" style="padding:0px; width:100%">
   <thead>
     <th data-dynatable-column="name" style="width:50%">Course Name</th>
     <th data-dynatable-column="dept" style="width:30%">Department</th>
     <th data-dynatable-column="number">#</th>
-    <th data-dynatable-column="type" style="width:10%">Type</th>
+    <th data-dynatable-column="cluster" style="width:10%">Cluster</th>
   </thead>
   {% for p in site.pages %}
     {% if p.layout == 'course' %}
@@ -76,7 +81,7 @@ Type of Course: <select id="search-type" name="type">
         </td>
         <td class="dept">{{ p.department }}</td>
         <td class="courseno">{{ p.course }}</td>
-        <td class="type">{{ p.course-type }}</td>
+        <td class="cluster">{{ p.cluster }}</td>
       </tr>
     {% endif %}
   {% endfor %}
@@ -97,7 +102,7 @@ $('#project-table').bind('dynatable:init', function(e, dynatable) {
       // paginationClass: 'pagination',
       // paginationActiveClass: 'active',
       // paginationDisabledClass: 'disabled'
-      queries: $('#search-dept, #search-type')
+      queries: $('#search-dept, #search-cluster')
     },
     features: {
       paginate: false,

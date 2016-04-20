@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Economics (ECON)
 course: C142
-title: Economics (ECON) C142 Applied Econometrics and Public Policy
 course-name: Applied Econometrics and Public Policy
+title: Economics (ECON) C142 Applied Econometrics and Public Policy
 units: 4
-prerequisites: 140 or 141 or consent of instructor
-tools: Bash, Git, Python, LaTex
-description: The course builds an understanding, demonstrates engineering uses, and provides hand-on experience for object-oriented programming as well as exposes a practical knowledge of advanced features available in MATLAB. The course will begin with a brief review of basic MATLAB features and quickly move to class organization and functionality. The introduced concepts are reinforced by examining the advanced graphical features of MATLAB. The material will also include the effective use of programs written in C and FORTRAN, and will cover SIMULINK, a MATLAB toolbox providing for an effective ways of model simulations. Throughout the course, the emphasis will be placed on examples and homework assignments from engineering disciplines.
+tools: nan
+description: This course focuses on the sensible application of econometric methods to empirical problems in economics and public policy analysis. It provides background on issues that arise when analyzing non-experimental social science data and a guide for tools that are useful for empirical research. By the end of the course, students will have an understanding of the types of research designs that can lead to convincing analysis and be comfortable working with large scale data sets.
+cluster: Social Science
 ---

@@ -1,12 +1,11 @@
 ---
 layout: course 
-course-type: Method
 department: Environmental Economics and Policy (ENVECON)
 course: 131
-title: Environmental Economics and Policy (ENVECON) 131 Globalization and the Natural Environment
 course-name: Globalization and the Natural Environment
+title: Environmental Economics and Policy (ENVECON) 131 Globalization and the Natural Environment
 units: 3
-prerequisites: Intermediate microeconomic theory or consent of instructor
-tools: MS Access, SQL
-description: Design and implementation of databases, with an emphasis on industrial and commercial applications. Relational algebra, SQL, normalization. Students work in teams with local companies on a database design project. WWW design and queries.
+tools: nan
+description: An examination of the environmental effects of globalization. How has increased international trade, the integration of factor markets, and the adoption of international agreements affected the environment? Case studies include the environmental impact of GATT/WTO and NAFTA. Multi-disciplinary approach examines the actual laws and institutions and the economic theories of globalization, in addition to the empirical evidence of globalization's environmental effects.
+cluster: Social Science
 ---
