@@ -53,7 +53,7 @@ Department: <select id="search-dept" name="dept">
   <option>Undergraduate Business Administration (UGBA)</option>
 </select>
 <br />
-Course Cluster: <select id="search-cluster" name="cluster">
+Course Cluster: <select id="filter-clusters">
   <option></option>
   <option>Humanities</option>
   <option>Social Science</option>
@@ -71,7 +71,7 @@ Course Cluster: <select id="search-cluster" name="cluster">
     <th data-dynatable-column="name" style="width:50%">Course Name</th>
     <th data-dynatable-column="dept" style="width:30%">Department</th>
     <th data-dynatable-column="number">#</th>
-    <th data-dynatable-column="cluster" style="width:10%">Cluster</th>
+    <th data-dynatable-column="cluster" style="width:10%">Cluster(s)</th>
   </thead>
   {% for p in site.pages %}
     {% if p.layout == 'course' %}
@@ -94,15 +94,15 @@ Course Cluster: <select id="search-cluster" name="cluster">
 
 <script>
 $('#project-table').bind('dynatable:init', function(e, dynatable) {
-    dynatable.queries.functions['max-price'] = function(record, queryValue) {
-      return parseFloat(record.price.replace(/,/,'')) <= parseFloat(queryValue);
+    dynatable.queries.functions['filter-clusters'] = function(record, queryValue) {
+      return record.cluster.indexOf(queryValue) > -1;
     };
   }).dynatable({
     inputs: {
       // paginationClass: 'pagination',
       // paginationActiveClass: 'active',
       // paginationDisabledClass: 'disabled'
-      queries: $('#search-dept, #search-cluster')
+      queries: $('#search-dept, #filter-clusters')
     },
     features: {
       paginate: false,
