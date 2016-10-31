@@ -19,6 +19,10 @@ datareader = csv.reader(csvfile, delimiter=',', quotechar='"')
 # Empty array for data headings, which we will fill with the first row from our CSV.
 data_headings = []
 
+# Filter function for title of yaml file
+def filter_title(strng):
+	return strng.lower().replace(" ", "-").replace("/","-").replace(":","-").replace("?", "")
+
 # Loop through each row...
 for row_index, row in enumerate(datareader):
 
@@ -28,9 +32,10 @@ for row_index, row in enumerate(datareader):
 
 	# Otherwise, create a YAML file from the data in this row...
 	else:
-		# Open a new file with filename based on the column named title
-		filename = 'courses/' + row[data_headings.index('title')].lower().replace(" ", "-").replace("/","-").replace(":","-") + '.md'
-		new_yaml = open(filename, 'w')
+		# Open a new file with filename based on the column named department, course, course-name
+		dept, no, name = row[data_headings.index('department')], row[data_headings.index('course')], row[data_headings.index('course-name')]
+		filename = filter_title(dept)+'-'+filter_title(no)+'-'+filter_title(name)+'.md'
+		new_yaml = open('courses/' + filename, 'w')
 
 		# Empty string that we will fill with YAML formatted text based on data extracted from our CSV.
 		yaml_text = ""

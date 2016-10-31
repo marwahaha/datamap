@@ -3,9 +3,12 @@ layout: course
 department: Nutritional Sciences and Toxicology (NUSCTX)
 course: 170
 course-name: Experimental Nutrition Laboratory
-title: Nutritional Sciences and Toxicology (NUSCTX) 170 Experimental Nutrition Laboratory
-units: 4
-tools: nan
+prerequisites: NUSCTX 103, STAT 20
 description: Basic principles and techniques used in human and animal nutrition research. Students design, execute, and analyze experiments.
+units: 4
+tools: 
 cluster: Biological Science
+foundational: 
+applied: Applied
+meta: 
 ---

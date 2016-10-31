@@ -3,9 +3,12 @@ layout: course
 department: Mathematics (MATH)
 course: 54
 course-name: Linear Algebra and Differential Equations
-title: Mathematics (MATH) 54 Linear Algebra and Differential Equations
-units: 4
-tools: nan
+prerequisites: MATH 1B
 description: Basic linear algebra; matrix arithmetic and determinants. Vector spaces; inner product as spaces. Eigenvalues and eigenvectors; linear transformations. Homogeneous ordinary differential equations; first-order differential equations with constant coefficients. Fourier series and partial differential equations.
-cluster: Mathematics/Statistics
+units: 4
+tools: 
+cluster: Mathematics/Statistics,Economics/Business,Social Science,Engineering,Biological Science,Computer Science
+foundational: Foundational
+applied: Applied
+meta: 
 ---

@@ -81,7 +81,6 @@ Course Cluster: <select id="search-cluster" name="cluster">
         </td>
         <td class="dept">{{ p.department }}</td>
         <td class="courseno">{{ p.course }}</td>
-        <td class="cluster">{{ p.cluster }}</td>
       </tr>
     {% endif %}
   {% endfor %}
