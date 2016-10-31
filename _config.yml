@@ -1,6 +1,6 @@
 title:            datamap
 description:      Navigate through the Data Science resources at UC Berkeley.
-url:              "http://marwahaha.github.io/datamap"# Site url, without a slash at the end.
+url:              "http://marwahaha.github.io/datamap" # Site url, without a slash at the end.
 signoff:          # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.

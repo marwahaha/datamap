@@ -16,7 +16,7 @@ body {
   padding: 0; margin: 0;
 }
 img { border: none; }
-#go-back-home { margin: 40px 0 0; &:hover { background-image: none; } }
+#go-back-home { margin: 0 0 0; &:hover { background-image: none; } }
 .capitalize { text-transform: capitalize; }
 .upcase { text-transform: uppercase; }
 .downcase { text-transform: lowercase; }
@@ -41,7 +41,7 @@ header { text-align: center; }
 
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
@@ -53,7 +53,7 @@ footer {
   @include clearfix;
   @include box-sizing(border-box);
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
