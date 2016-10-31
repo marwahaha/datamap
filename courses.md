@@ -66,9 +66,9 @@ Course Cluster: <select style="margin-bottom: 10px; height: 25px" id="filter-clu
 <table id="project-table" class="table table-bordered" style="padding:0px; width:100%">
   <thead>
     <th data-dynatable-column="name" style="width:40%">Course Name</th>
-    <th data-dynatable-column="dept" style="width:25%">Department</th>
+    <th data-dynatable-column="dept" style="width:30%">Department</th>
     <th data-dynatable-column="number" style="width:10%">#</th>
-    <th data-dynatable-column="cluster" style="width:25%">Cluster(s)</th>
+    <th data-dynatable-column="cluster" style="width:20%">Cluster(s)</th>
   </thead>
   {% for p in site.pages %}
     {% if p.layout == 'course' %}
@@ -76,9 +76,9 @@ Course Cluster: <select style="margin-bottom: 10px; height: 25px" id="filter-clu
         <td class="project-name" style="width:40%">
           <a target="_blank" href="/datamap{{ p.url }}">{{ p.course-name }}</a>
         </td>
-        <td class="dept" style="width:25%">{{ p.department }}</td>
+        <td class="dept" style="width:30%">{{ p.department }}</td>
         <td class="courseno" style="width:10%">{{ p.course }}</td>
-        <td class="cluster" style="width:25%">
+        <td class="cluster" style="width:20%">
           {% if p.cluster[1] %} 
             Multiple <span style="display:none"> {{ p.cluster}} </span> 
           {% else %}

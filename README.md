@@ -8,7 +8,7 @@ Development
 
 To build locally, clone the repository and run ```jekyll serve``` at the command line. The website should be accessible from localhost:4000 . (Might need to run  ```bundle install``` in case you don't have all the ruby gems.)
 
-Make sure you change the site url in the _config.yml to "http://localhost:4000" (otherwise, it will still pull stylesheets from online!)
+Make sure you change the site url in the _config.yml to "http://localhost:4000" (otherwise, it will still pull stylesheets from online!) To compile the SASS, use   `sass "_assets/style.scss" "stylesheets/style.css"` .
 
 
 Adding Data

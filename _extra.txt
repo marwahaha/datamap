@@ -358,5 +358,3 @@ img {
   margin-left: -340px; }
 .paging .right {
   margin-left: 320px; }
-
-/*# sourceMappingURL=style.css.map */

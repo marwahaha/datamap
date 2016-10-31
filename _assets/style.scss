@@ -4,7 +4,6 @@ $background: #f9f9f9;
 
 h1, h2, h3, h4, h5, strong, b { font-weight: 600; }
 
-html, body { height: 100%; }
 body { 
   &, * { -webkit-font-smoothing: antialiased; }
   background: $background;
@@ -45,7 +44,7 @@ footer {
   max-width: 900px;
   line-height: 2em;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   text-align: center;
   * { color: #797979; }
 }
