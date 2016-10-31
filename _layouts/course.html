@@ -22,7 +22,7 @@
         <li>Units: {{ page.units }}</li>
         <li>Prerequisites: {{ page.prerequisites }}</li>
         <li>Tools: {{ page.tools }}</li>
-        <li>Cluster(s): {{ page.cluster }}</li>
+        <li>Cluster(s): {% for c in page.cluster %} {{ c }} {% endfor %}</li>
         <li>Tags: {{ page.foundational }} {{ page.applied }} {{ page.meta }}</li>
 			</ul>
 

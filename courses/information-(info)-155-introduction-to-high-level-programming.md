@@ -7,7 +7,8 @@ prerequisites: None
 description: An introduction to high-level computer programming languages with emphasis on strings, modules, functions and objects; sequential and event-based programming. Uses the PYTHON language.
 units: 3
 tools: Python
-cluster: Computer Science
+cluster:
+- Computer Science
 foundational: 
 applied: Applied
 meta: 

@@ -7,7 +7,8 @@ prerequisites: Upper division standing
 description: Methodological approaches for the quantification of technological risk and risk based decision making. Probabilistic safety assessment, human health risks, environmental and ecological risk analysis.
 units: 3
 tools: 
-cluster: Engineering
+cluster:
+- Engineering
 foundational: 
 applied: Applied
 meta: 

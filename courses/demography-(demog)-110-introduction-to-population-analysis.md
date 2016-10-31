@@ -7,7 +7,9 @@ prerequisites: None
 description: Measures and methods of Demography. Life tables, fertility and nuptiality measures, age pyramids, population projection, measures of fertility control.
 units: 3
 tools: 
-cluster: Social Science,Economics/Business
+cluster:
+- Social Science
+- Economics/Business
 foundational: 
 applied: Applied
 meta: 

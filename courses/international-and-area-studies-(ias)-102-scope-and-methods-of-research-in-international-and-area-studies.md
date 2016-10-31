@@ -7,7 +7,8 @@ prerequisites: DS H195 in following semester
 description: Required prerequisite for all students intending to enroll in Development Studies H195 and Political Economy of Industrial Societies H195. Introduction to interdisciplinary research strategies for the collection, interpretation, and analysis of data. Course integrates the study of the fundamental theories of social science with the practical techniques of social science research methods.
 units: 4
 tools: 
-cluster: Social Science
+cluster:
+- Social Science
 foundational: 
 applied: Applied
 meta: 

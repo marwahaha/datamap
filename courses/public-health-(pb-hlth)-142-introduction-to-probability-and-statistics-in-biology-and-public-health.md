@@ -7,7 +7,8 @@ prerequisites: None
 description: Descriptive statistics, probability, probability distributions, point and interval estimation, hypothesis testing, chi-square, correlation and regression with biomedical applications.
 units: 4
 tools: 
-cluster: Biological Science
+cluster:
+- Biological Science
 foundational: 
 applied: Applied
 meta: 

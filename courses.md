@@ -3,12 +3,11 @@ layout: page
 title: Courses
 ---
 
-### Data Science-Related Courses at UC Berkeley
+#### Data Science-Related Courses at UC Berkeley
 
 These are semester-long computational courses (in some academic domain) or data-intensive courses at UC Berkeley. If you have suggestions or things to add, please [email](mailto:marwahaha@berkeley.edu). 
 
-
-Department: <select id="search-dept" name="dept">
+Department: <select style="height: 25px" id="search-dept" name="dept">
   <option></option>
   <option>African American Studies (AFRICAM)</option>
   <option>American Studies (AMERSTD)</option>
@@ -52,8 +51,8 @@ Department: <select id="search-dept" name="dept">
   <option>Statistics (STAT)</option>
   <option>Undergraduate Business Administration (UGBA)</option>
 </select>
-<br />
-Course Cluster: <select id="filter-clusters">
+
+Course Cluster: <select style="margin-bottom: 10px; height: 25px" id="filter-clusters">
   <option></option>
   <option>Humanities</option>
   <option>Social Science</option>
@@ -63,25 +62,29 @@ Course Cluster: <select id="filter-clusters">
   <option>Mathematics/Statistics</option>
   <option>Physical Science</option>
 </select>
-<br />
-
 
 <table id="project-table" class="table table-bordered" style="padding:0px; width:100%">
   <thead>
-    <th data-dynatable-column="name" style="width:50%">Course Name</th>
-    <th data-dynatable-column="dept" style="width:30%">Department</th>
-    <th data-dynatable-column="number">#</th>
-    <th data-dynatable-column="cluster" style="width:10%">Cluster(s)</th>
+    <th data-dynatable-column="name" style="width:40%">Course Name</th>
+    <th data-dynatable-column="dept" style="width:25%">Department</th>
+    <th data-dynatable-column="number" style="width:10%">#</th>
+    <th data-dynatable-column="cluster" style="width:25%">Cluster(s)</th>
   </thead>
   {% for p in site.pages %}
     {% if p.layout == 'course' %}
       <tr>
-        <td class="project-name">
+        <td class="project-name" style="width:40%">
           <a target="_blank" href="/datamap{{ p.url }}">{{ p.course-name }}</a>
         </td>
-        <td class="dept">{{ p.department }}</td>
-        <td class="courseno">{{ p.course }}</td>
-        <td class="cluster">{{ p.cluster }}</td>
+        <td class="dept" style="width:25%">{{ p.department }}</td>
+        <td class="courseno" style="width:10%">{{ p.course }}</td>
+        <td class="cluster" style="width:25%">
+          {% if p.cluster[1] %} 
+            Multiple <span style="display:none"> {{ p.cluster}} </span> 
+          {% else %}
+           {{ p.cluster }} 
+          {% endif %}
+        </td>
       </tr>
     {% endif %}
   {% endfor %}
@@ -95,6 +98,7 @@ Course Cluster: <select id="filter-clusters">
 <script>
 $('#project-table').bind('dynatable:init', function(e, dynatable) {
     dynatable.queries.functions['filter-clusters'] = function(record, queryValue) {
+      console.log(record);
       return record.cluster.indexOf(queryValue) > -1;
     };
   }).dynatable({

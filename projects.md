@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-### Groups doing Data Science Projects (and looking for help!)
+#### Groups doing Data Science Projects (and looking for help!)
 
 Here is a list of research projects and consulting organizations that revolve around data science. If you have suggestions or things to add, please [email](mailto:marwahaha@berkeley.edu).
 

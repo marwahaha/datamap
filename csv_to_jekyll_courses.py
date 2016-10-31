@@ -51,6 +51,12 @@ for row_index, row in enumerate(datareader):
 			cell_heading = data_headings[cell_index].lower().replace(" ", "-").replace("%", "percent").replace("$", "").replace(",", "").replace("#","number")
 			cell_text = cell_heading + ": " + cell.replace("\n", ", ").replace(":"," -") + "\n"
 
+			# Special case for clusters
+			if cell_heading == "cluster":
+				cell_text = cell_heading + ":" + "\n"
+				for c in cell.split(","):
+					cell_text += "- " + c.strip() + "\n"
+
 			# Add this line of text to the current YAML string.
 			if len(cell_heading) > 0:
 				yaml_text += cell_text
